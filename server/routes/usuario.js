@@ -1,7 +1,7 @@
 const express = require('express');
 const Usuario = require('../models/usuario');
 
-const { verificaToken, verificaAdmin_Role } = require('../middlewares/autenticacion')
+const { verificaToken, verificaAdmin_Role } = require('../middlewares/autenticacion');
 
 const bcrypt = require('bcrypt');
 
